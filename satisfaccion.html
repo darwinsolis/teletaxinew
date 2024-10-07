@@ -10,7 +10,7 @@
     <div class="container">
         <h1>Formulario de Satisfacción</h1> 
         <div class="form-container">
-            <form action="encuestasFin.html" method="get">
+            <form onsubmit="event.preventDefault(); location.href='encuestasFin.html';">
                 <label for="nombreUsuario">Nombre del Usuario:</label>
                 <input type="text" id="nombreUsuario" name="nombreUsuario" required>
 
